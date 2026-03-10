@@ -16,10 +16,11 @@ API Source: JSONPlaceholder
 Packages used: http, google_fonts (if used).
 ## Project Structure 🏗️
 The project follows a clean directory structure to separate concerns:Plaintextlib/
-├── models/      # Data models for JSON serialization
-├── services/    # API calling logic (HTTP requests)
-├── screens/     # UI screens and widgets
-└── main.dart    # Application entry point
+
+#### ├── models/ Data models for JSON serialization
+#### ├── services/API calling logic (HTTP requests)
+#### ├── screens/UI screens and widgets
+#### └── main.dart/Application entry point
 
 ## Screenshots 📸
 Home_Screen   Post_Details (Optional)
