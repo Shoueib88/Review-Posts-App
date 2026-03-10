@@ -1,16 +1,6 @@
-# clean_architecture_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📱 Review Posts App - FlutterA modern, responsive mobile application built with Flutter and Dart that demonstrates how to fetch, parse, and display data from a REST API (JSONPlaceholder).🚀 FeaturesREST API Integration: Fetches real-time post data using the http package.JSON Parsing: Converts complex JSON responses into structured Dart Models for type safety.Asynchronous UI: Handles loading states and data fetching gracefully using FutureBuilder or async/await.Clean Material UI: Optimized layout with Card widgets, ListViews, and custom themes.Error Handling: Basic error management to ensure the app doesn't crash on network failure.🛠️ Tech StackFramework: FlutterLanguage: DartAPI Source: JSONPlaceholderPackages used: http, google_fonts (if used).🏗️ Project StructureThe project follows a clean directory structure to separate concerns:Plaintextlib/
+├── models/      # Data models for JSON serialization
+├── services/    # API calling logic (HTTP requests)
+├── screens/     # UI screens and widgets
+└── main.dart    # Application entry point
+📸 ScreenshotsHome ScreenPost Details (Optional)
